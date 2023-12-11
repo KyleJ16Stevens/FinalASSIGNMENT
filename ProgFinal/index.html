@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>PROG1700 Kyle Stevens - Final Project</title>
+
+</head>
+
+<body>
+
+
+
+  <div class="gridContainer">
+    <div class="grid-item" id="counrtyList">
+      <h2>Country List:</h2>
+        <label for="selectCountry"></label>
+          <select id="selectCountry"><option>Select a Country</option></select>
+          
+    </div>
+
+    <div class="grid-item" id="populationAndPercent">
+      <h2>Country Info:</h2>
+      <h3>Population:</h3>
+        <div id="populationAnswer"></div>
+      <h3>Percentage of World Population:</h3>
+        <div id="percPopulationAnswer"></div>
+        <div class="buttons">
+          <button id="button1">Country Wiki</button>
+          <button id="button2">Quiz</button>
+      </div>
+
+    </div>
+
+    <div class="grid-item" id="userChoices">
+      <h3>Population Density:</h3>
+            <div id="popDensity">
+                <input type="radio" id="sqMiles" name="choices" value="squareMile" > Per Square Miles
+                <input type="radio" id="sqKM" name="choices" value="squareKilo" > Per Square KM
+            </div>
+              <div id="popDensityAnswer"></div>
+        <h4 for="areaSize">Area in:</h4>
+        
+          <select id="areaSizeDD">
+              <option value="sqM">Sq. Miles</option>
+              <option value="sqKM">Sq. KM</option>
+          </select>
+              <div id="areaSizeAnswer"></div>
+
+    </div>
+
+</div>
+
+<div class="image-container">
+  <img id="countryFlag">
+</div>
+
+  <footer>
+    <p>&copy; Kyle Stevens Final Project Prog 1700</p>
+</footer>
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>

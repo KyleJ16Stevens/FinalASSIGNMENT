@@ -1,0 +1,24 @@
+use "fetch" function get countries.json 
+(this is normally used as a network request to get data off a server)
+ 
+you will then get a "response" with the file you requested
+then you will use .then(=>) so when you get the data parse it into json 
+(these function work on other types of files to turn into a json also).
+an example .then(response => response.json)(you can you name the response 
+whatever youd like i did to help me under stand it better at first)
+
+the .json you got from the first .then will then become "data" in the second .then
+use .then(data=>{ })again. then you can do what you need to do with the data
+you can rename the "data" whatever youd like i did so i would under stand better 
+as this was new to me  
+
+.
+.
+.
+
+
+another way to put it is a this is an Asynchronous operation or a Promise that the "fetch" function is starting
+the response(you normally get from another location). once the "Promise starts you can use .then, 
+.then normally starts with the first .then being how to handle the "response" like parseing it into json
+the second .then will then be how you work with the "response" now a json.
+you can use more .thens but should normally limit it to around 2-3.

@@ -1,0 +1,158 @@
+*{margin: 0px; padding: 0px;}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('BackGroundImage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+
+  
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+  
+.grid-item {
+    padding: 2%;
+   
+}
+#selectCountry {
+    margin-left: 150;
+}
+#counrtyList h2{
+    margin-left: 175px;
+}
+#countryList selectCountry{
+   text-align: center;
+}
+  
+#populationAndPercent h2{
+    margin-left: 70%;
+}
+
+#populationAndPercent h3{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 100px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#userChoices h3{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 173px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+#userChoices h4{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 83px;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+#popDensity{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+#areaSize{
+    margin-top: 10px;
+    
+}
+#areaSizeDD{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+#userChoices input[type="radio"] sqMiles {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#populationAndPercent .buttons{
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 25%;
+    
+}
+
+
+#populationAnswer {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#percPopulationAnswer {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#popDensityAnswer {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#areaSizeAnswer {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+#selectCountry{
+    margin-top: 50px;
+    margin-left: 135px;
+}
+
+.image-container {
+    max-width: 500px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.image-container img {
+    width: 500px;
+    height: 250px;
+}
+
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .gridContainer {
+      grid-template-columns: 1fr;
+    }
+  }
