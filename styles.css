@@ -11,7 +11,35 @@ body {
     justify-content: space-between;
   }
   
-  .box {
+  .box1 {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+  }
+  #img{
+    max-width: 300px;
+    height: auto;
+  }
+  .box2 {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .box3 {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .center-box {
     width: 45%;
     margin: 10px;
     padding: 15px;
@@ -20,11 +48,7 @@ body {
     text-align: center;
   }
   
-  .center-box {
-    margin: 10px auto;
-  }
-  
-  header, footer {
+  header {
     padding: 20px;
     text-align: center;
     background: #333;
@@ -37,4 +61,10 @@ body {
   
   a:hover {
     text-decoration: underline;
+  }
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    
   }
