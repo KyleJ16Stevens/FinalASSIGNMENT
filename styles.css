@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #808080, #2c3e50, #808080);
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .center-box {
+    margin: 10px auto;
+  }
+  
+  header, footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
