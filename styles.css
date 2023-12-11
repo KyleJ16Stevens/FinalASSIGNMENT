@@ -12,10 +12,11 @@ body {
   }
   
   .box1 {
-    width: 45%;
+    width: 35%;
     margin: 10px;
+    margin-left: 7%;
     padding: 15px;
-    background: #333;
+    background: linear-gradient(to left, black, gray, black );
     border-radius: 8px;
     text-align: center;
   }
@@ -24,26 +25,29 @@ body {
     height: auto;
   }
   .box2 {
-    width: 45%;
+    width: 35%;
     margin: 10px;
+    margin-right: 7%;
     padding: 15px;
-    background: #333;
+    background: linear-gradient(to left, black, gray, black );
     border-radius: 8px;
     text-align: center;
   }
   .box3 {
-    width: 45%;
+    width: 35%;
     margin: 10px;
+    margin-left: 7%;
     padding: 15px;
-    background: #333;
+    background: linear-gradient(to left, black, gray, black );
     border-radius: 8px;
     text-align: center;
   }
   .center-box {
-    width: 45%;
+    width: 35%;
     margin: 10px;
+    margin-right: 7%;
     padding: 15px;
-    background: #333;
+    background: linear-gradient(to left, black, gray, black );
     border-radius: 8px;
     text-align: center;
   }
@@ -51,7 +55,7 @@ body {
   header {
     padding: 20px;
     text-align: center;
-    background: #333;
+    background: linear-gradient(to left, gray, black, gray );
   }
   
   a {
@@ -63,8 +67,8 @@ body {
     text-decoration: underline;
   }
   footer {
-    padding: 20px;
+    border-radius: 8px;
     text-align: center;
-    background: #333;
+    background: linear-gradient(to left, gray, black, gray );
     
   }
