@@ -1,0 +1,111 @@
+body{
+    background-color:ghostwhite;
+    background-image: url("");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    text-align: center;
+}
+h2{
+    color:rgb(132, 0, 255);
+}
+blockquote{
+    color:darkslategray;
+    margin-bottom: 50px;
+}
+
+
+
+
+p{
+    
+    text-align: center;
+}
+
+p.pictureText{
+
+    text-align:justify;
+
+}
+div.div1{
+    image-orientation: left;
+    clear:both;
+
+}
+div.div2{
+    margin-top: 50px;
+    clear: both;
+    
+}
+div.div3{
+    margin-top: 50px;
+    clear: both;
+}
+img{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 400px;
+    border: 5px solid darkmagenta;
+    border-radius: 20%;
+    margin-bottom: 50px;
+    
+}
+
+img.FFC{
+    float: left;
+    border:3px solid darkmagenta;
+    width:400px;
+    height:300px;
+    object-fit: cover;
+    
+}
+
+
+img.Hiking{
+    float: right;
+    border: 3px solid darkmagenta;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+img.Fishing{
+    float: left;
+    border: 3px solid darkmagenta;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+nav{
+    
+    
+}
+ul{
+    
+    
+    list-style: none;
+}
+li{
+    
+    
+    
+}
+
+
+footer{
+    clear:left;
+    text-align: justify;
+    color: black;
+}
+a{
+    text-align:center;
+    color: darkmagenta;
+}
+a.footer{
+    text-align: center;
+    color:blue;
+}
